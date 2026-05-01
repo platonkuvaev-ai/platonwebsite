@@ -1,0 +1,63 @@
+<nav>
+  <a href="#" class="nav-logo">PLATON KUVAEV</a>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <div class="trophy-btn">🏆 Top Rank</div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="profile-pic"></div>
+  <h1>Platon Kuvaev</h1>
+  <p class="subtitle">Creative Coder & System Architect</p>
+</header>
+
+<div class="container">
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I build smooth, futuristic digital experiences. I specialize in clean UI and interactive logic using modern web technologies.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Cyber-Totodile UI</h3>
+      <p>A high-performance portfolio featuring streaming animations and glassmorphism.</p>
+    </div>
+  </section>
+
+  <section id="game-zone">
+    <h2>Puzzle Terminal</h2>
+    <div id="game-container">
+      <div id="game-ui">
+        <div id="menu-screen">
+          <p>Initialize the puzzle modules to test system integrity.</p>
+          <button class="start-btn-primary" onclick="showGameMenu()">START SYSTEM</button>
+        </div>
+
+        <div id="game-selection" style="display: none;">
+          <button class="game-option" onclick="loadShapeGame()">SHAPE FIT</button>
+          <button class="game-option" onclick="loadMazeGame()">MAZE BYPASS</button>
+        </div>
+
+        <div id="game-stage" style="display: none;"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Ready to collaborate or chat about tech?</p>
+    <div class="contact-links">
+      <a href="mailto:your-email@example.com" class="contact-btn">Email Me</a>
+      <a href="https://github.com/platonkuvaev-ai" target="_blank" class="contact-btn">GitHub</a>
+    </div>
+  </section>
+</div>
+<button class="game-option" onclick="loadDodgeGame()">CORE DEFENSE</button>
+<div id="game-selection" style="display: none;">
+  <button class="game-option" onclick="loadShapeGame()">SHAPE FIT</button>
+  <button class="game-option" onclick="loadMazeGame()">MAZE BYPASS</button>
+  <button class="game-option" onclick="loadDodgeGame()">CORE DEFENSE</button> </div>
